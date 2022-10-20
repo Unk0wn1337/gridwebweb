@@ -1,0 +1,66 @@
+.tartalom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+  background-color: rgb(33, 31, 31);
+}
+img {
+  max-width: 350px;
+  max-width: 50%;
+}
+#menu ul {
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  color: white;
+}
+
+#container {
+  margin: auto;
+  text-align: center;
+
+  color: white;
+}
+
+#menu a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.kozepso {
+  border-top: 0cm;
+  border-bottom: 0cm;
+
+  border-style: solid;
+  border-color: red;
+}
+.cikk {
+  margin: 5px 5px 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  #menu ul {
+    grid-template-columns: auto;
+    text-align: left;
+  }
+  .tartalom {
+    grid-template-columns: 1fr;
+
+}
+}
+
+#bContainer {
+    color: white;
+    
+}
+.fejlec {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+
+    border-style: solid;
+    border-color: red;
+}
